@@ -1,0 +1,258 @@
+<!doctype html>
+
+
+<html>
+	<head>
+
+		<title>BTS ARMY</title>
+		<link href="CSS/Style.css" rel="stylesheet" type="text/css" media="screen">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Codystar&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+
+	<div id="wrapper">
+		<div id="top">
+			<div id="logo">
+				<a href="Main.html">
+				<img src="Images/ResizedLogo.png"></a>
+			</div>
+			<div id="Social-Media">
+				<p>♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡</p>
+				<ul>
+					<li><a href="http://www.facebook.com"><img src="Images/pinkfacebookresised.png"></a></li>
+
+					<li><a href="http://www.twitter.com"><img src="Images/pinktwitteresized.png"></a></li>
+
+					<li><a href="http://www.instagram.com"><img src="Images/pinkinstagramresized.png"></a></li>
+
+
+					<li><a href="https://www.youtube.com"><img src="Images/youtubepinkresized.png"></a></li>
+				</ul>
+				<p>♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡</p>
+			</div>
+
+
+		<div id="TopNav">
+			<ul>
+				<li><a href="Main.html">Home</a></li>
+				<li><a href="Side pages/Calendar.html">Calendar</a></li>
+				<li><a href="Side pages/Bang Bang Con.html">BangBangCon</a></li>
+				<li><a href="Side pages/Merch.html">Merch</a></li>
+				<li><a href="Side pages/News.html">News</a></li>
+				<li><a href="Side pages/Other Bands.html">Other Bands</a></li>
+				<li><a href="Side pages/LearnK.html">EDU</a></li>
+			</ul>
+			</div>
+			</div>
+		<div id="Banner">
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+
+  <img src="Images/BannerGQKorea1.png" style="width:100%">
+  <div class="text1">BTS x Vogue</div>
+</div>
+
+<div class="mySlides fade">
+
+  <img src="Images/Banner2Army.png" style="width:100%">
+  <div class="text1">ARMY</div>
+</div>
+
+<div class="mySlides fade">
+
+  <img src="Images/Banner3- Camaigns.png" style="width:100%">
+  <div class="text1">BTS's Impact</div>
+</div>
+	<div class="mySlides fade">
+
+  <img src="Images/Banner4- HYYH Era.png" style="width:100%">
+  <div class="text1">HYYH</div>
+</div>
+	<div class="mySlides fade">
+
+  <img src="Images/Banner5-BTS.png" style="width:100%">
+  <div class="text1">Meet the Members</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+</script>
+
+			</div>
+		<div id="content-wrapper">
+			<div id="Content">
+				<h1><a href="https://ibighit.com/bts/eng/">Welcome Army</a></h1>
+
+				<p>Check out our Calendar, Bang Bang Con, Merch, and News pages for all things BTS. To learn about other bands please go to the “Other Bands” and for advice and material on how to learn Korean please go to the EDU tab where there are both free and paid learning resources. Anytime you need to come back here to the home page you can use the navigation bar or the BTS logo to be redirected home.</p>
+
+				<h2>Who is BTS?</h2>
+
+				<p>Bangtan Sonyeondan, also known as BTS, is a South Korean boyband known for their global success in a wide range of areas, most notably their music. They hold many world records and are considered the most popular and successful band in the world at the moment. BTS speaks about a wide range of perplexing topics related to and including depression, anxiety, and self love.</p>
+
+				<div id="box1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+<div class="container">
+  <img src="Images/box1image.png" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text"><a href="Side pages/Merch.html">Merch</a></div>
+  </div>
+</div>
+
+
+	</div>
+
+					<div id="box2">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #c184ff;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+
+
+
+
+<div class="container">
+  <img src="Images/box2image.png" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text"><a href="Side pages/News.html">News</a></div>
+  </div>
+				</div>
+						<br>
+						<br>
+						</div>
+				<div id="Collabs">
+				<h2>Collaborations Outside of Music</h2>
+					<p>Samsung is a current sponsor of BTS and has a few BTS inspired products. Other companies such as Hyundai, SIDIZ, Coway, Louis Vuitton, and Fila have also collabed with the band as well as so many other great companies. BTS has been featured on many popular magazine labels such as Time, Vogue, Dicon, GQ, and The Rolling Stone.  </p></div>
+
+				<div id="bottomRecords">
+				<h2>Current Records</h2>
+				<p>BTS holds twenty-five records total in many subjects including social media, entertainment, cultural topics, and of course music. This has awarded them a spot in Guinness World Record's 2022 Hall of Fame.
+				<h4> Here are a few of their current records:
+				  <iframe width="237" height="209" src="https://www.youtube.com/embed/3cESARetI9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h4>
+				</p>
+				<p> <li>Most viewed YouTube music video in 24 hours ("Butter")</li>
+						<li>First K-pop act to reach No.1 on the US albums chart</li>
+						<li>Highest annual earnings for a K-Pop band</li>
+						<li> Most weeks at No.1 on Billboard’s Digital Song Sales chart</li>
+				  <li>Most streamed act on Spotify</li>
+
+				  </p>
+				<h4><p>Be sure to watch xCeleste's video linked above to get a full introduction to all of the members. Click our Calendar tab to subscribe to our calendar and get updated on everything the members do! <br>♡  ♡  ♡  ♡  ♡
+				  <iframe width="560" height="209" src="https://www.youtube-nocookie.com/embed/jjskoRh8GTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</p>
+				</h4>
+				</div>
+
+			</div>
+
+			<div id="rightside-content">
+
+
+				<h3>Pre Debut</h3>
+				<img src="Images/predebut.png"> <br>
+				<p> Pre debut life wasn't very easy for the members, they suffered a lot of trouble during these years. Coming from a poor company they had to share one dorm room up until the year 2016. even having to choose between eating and a bus ride to the studio. </p>
+
+				<h3>Debut</h3>
+				<img src="Images/RightsideB.png"> <br>
+				<p>BTS debuted as a Hip Hop group with the album 2 Cool 4 Skool and their music quickly fell off the charts due to lack of exposure. Life was hard after their debut, the members were mistreated by multiple variety shows, usually performing as fill-ins with little screen play. Having to hand out flyers advertising free concerts, BTS really struggled with getting their music recognized and nearly broke apart, luckily they pulled through and were able to release "I Need U," their first hit song to kickstarted their sucess. Now having a bigger budget to produce greater music videos, BTS was able to climb to the top spot in the music industry, earning them a spot as the official South Korean presidential envoys.</p>
+				<h3>ARMY</h3>
+				<iframe width="269" height="153" src="https://www.youtube.com/embed/iEy4wSU0t88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>ARMY is BTS's fanbase and is considered to be the biggest and strongest fanbase in the world. We are a very diverse community consisting of people all over the world. We are men and women ranging from all ages, ethnicities, races, and religions who care deeply for the seven members with the same main interest of listening and appreciating BTS's music.<br>
+				♡  ♡  ♡  ♡  ♡</p>
+
+
+				</div>
+
+
+
+		<div id="Footer">
+		<p>&copy;Copyright 2022 ♡ Cable News Network ♡ A Warner Media Company ♡ All Rights Reserved ♡
+			CNN Sans ™  © 2016 Cable News Network</p>
+		</div>
+		</div>
+	</div>
+	</body>
+
+</html>
